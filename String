@@ -1,0 +1,467 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP4tsXRtAYYEXaAzWquTc7n",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Rabi909-manzoor/Assignment-of-MIS-703/blob/main/String\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Fx_H35DplbDt",
+        "outputId": "344f0b0a-bf57-48a5-c6f9-7d16ba0c3b29"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hellothere\n"
+          ]
+        }
+      ],
+      "source": [
+        "str1 = \"Hello\"\n",
+        "str2 = 'there'\n",
+        "bob = str1 + str2\n",
+        "print(bob)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "str3 = '123'\n",
+        "x = int(str3) + 1\n",
+        "print(x)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EJf7ymQasVnN",
+        "outputId": "86e1b779-0a65-4df4-c1ee-f58d66e9cd45"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "124\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " name = input('Enter:')\n",
+        " print(name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kSZ3bz4Vsojn",
+        "outputId": "3d21f6a4-a4be-47f3-c449-daeb014d76c3"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter:chik\n",
+            "chik\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " fruit = 'banana'\n",
+        "letter = fruit[1]\n",
+        "print(letter)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gAGKsluGs4nj",
+        "outputId": "a4b08e9b-85e9-458a-9cf7-d4d0e2ec17e0"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 3\n",
+        "w = fruit[x - 1]\n",
+        "print(w)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zBNjBsDJs_ad",
+        "outputId": "0ceb7a59-c15b-4982-b0a0-b36d4c4188f4"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "n\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " fruit = 'banana'\n",
+        " print(len(fruit))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MeZ4JbqntIgT",
+        "outputId": "d6aa501d-7a71-493f-e8bd-27a7c1888213"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fruit = 'banana'\n",
+        "index = 0\n",
+        "while index < len(fruit):\n",
+        "   letter = fruit[index]\n",
+        "   print(index, letter)\n",
+        "   index = index + 1\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6myMIwJotU6v",
+        "outputId": "b3bf86e2-951a-46ce-f3e7-2a410c3e930f"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0 b\n",
+            "1 a\n",
+            "2 n\n",
+            "3 a\n",
+            "4 n\n",
+            "5 a\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fruit = 'banana'\n",
+        "for letter in fruit:\n",
+        "  print(letter)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f57CO3Y0tmXs",
+        "outputId": "a603f8f0-f8f9-4d42-fcf5-d29859d3f9c7"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "b\n",
+            "a\n",
+            "n\n",
+            "a\n",
+            "n\n",
+            "a\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "word = 'banana'\n",
+        "count = 0\n",
+        "for letter in word :\n",
+        "  if letter == 'a' :\n",
+        "   count = count + 1\n",
+        "print(count)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HQoYZu1ztsUM",
+        "outputId": "9e8a2c4c-de87-40e6-b8ae-ff468d5bd648"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s = 'Monty Python'\n",
+        "print(s[0:4])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "708Lu_GDuXEg",
+        "outputId": "180255bc-8443-43ff-ee89-f7b26169e5db"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Mont\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(s[6:7])\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GGdMHGT5u4dt",
+        "outputId": "d243eb88-20dd-4177-f03a-cdfdf6e5be5d"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "P\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(s[:2])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YEO4ov20vJjN",
+        "outputId": "9be6c78f-f2cb-4d7d-d2b9-97efc26dc20b"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Mo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(s[8:])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "folDAqXWvTFR",
+        "outputId": "33bb681d-a45e-4a2a-dfb5-eb77fc5f2299"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "thon\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(s[:])\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Kks8h3e-vjMR",
+        "outputId": "c71d1c97-f756-4892-96e9-86aed4d6b261"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Monty Python\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 'Hello'\n",
+        "b = a + 'There'\n",
+        "print(b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KuxOEjz9wCpG",
+        "outputId": "e4d08e7c-a5ab-4038-af58-af47bddbef5f"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "HelloThere\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "c = a + ' ' + 'There'\n",
+        "print(c)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ktWq_dMCwM5s",
+        "outputId": "5177aa6c-e26d-4404-cdba-f21daadf925f"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello There\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if word == 'banana':\n",
+        "  print('All right, bananas.')\n",
+        "if word < 'banana':\n",
+        "  print('Your word,' + word + ', comes before banana.')\n",
+        "elif word > 'banana':\n",
+        "  print('Your word,' + word + ', comes after banana.')\n",
+        "else:\n",
+        "  print('All right, bananas.')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LEe7Oxpbwf-I",
+        "outputId": "5d334f20-e385-4e1a-b027-cfddbedbea68"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "All right, bananas.\n",
+            "All right, bananas.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
